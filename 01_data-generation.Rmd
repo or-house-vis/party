@@ -73,8 +73,8 @@ dr_seats_over %>%
     geom_area(aes(fill = party), alpha = 0.5, position = "identity") +
     coord_flip(clip = "off") +
     scale_x_continuous(expand = c(0, 0),
-      breaks = c(-1860, seq(-1875, -2018, by = -25), -2018),
-      labels = -1*c(-1860, seq(-1875, -2018, by = -25), -2018)) +
+      breaks = c(-1860, seq(-1875, -2019, by = -25), -2019),
+      labels = -1*c(-1860, seq(-1875, -2019, by = -25), -2019)) +
     scale_y_continuous("", limits = c(-30, 40),
       breaks = c(-30, -15, 0, 15, 30),
       labels = c(30, 15, 0, 15, 30), position = "right",
@@ -191,7 +191,7 @@ legislators <- house_reps_regular %>%
 Check on ordering:
 ```{r seat-assignment-check}
 legislators %>% 
-  filter(session_year == 2018) %>% 
+  filter(session_year == 2019) %>% 
   left_join(seats) %>% 
   ggplot() + 
     geom_sf(aes(fill =  party, alpha = gender)) +
@@ -225,11 +225,7 @@ Compose caption:
 legislators_captions <- legislators_nice  %>% 
   mutate(
     caption = glue('
-      <strong>{nice_name}</strong><br/>
-      {party}<br/>
-      {gender}<br/>
-      Representing {residence}
-    '
+      <strong>{nice_name}</strong><br/>{party}<br/>{gender}<br/>Representing {residence}.'
     ),
     caption = ifelse(is.na(notes), caption, 
       str_c(caption, "<br/><br/><em>", notes, "</em>"))
@@ -257,6 +253,7 @@ all <- years %>%
 
 Examine changes
 ```{r, eval = FALSE}
+library(daff)
 old <- read_csv(here("docs", "data", "vega-all.csv"))
 diffs <- diff_data(all, old, ordered = FALSE)
 render_diff(diffs)
