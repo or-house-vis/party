@@ -321,7 +321,7 @@
               "type": "nominal",
               "sort": {
                 "op": "distinct",
-                "field": "Legislator",
+                "field": "legislator",
                 "order": "descending"
               },
               "scale": {
@@ -408,7 +408,7 @@
               "encoding": {
                 "text": {
                   "aggregate": "distinct",
-                  "field": "Legislator",
+                  "field": "legislator",
                   "type": "quantitative"
                 }
               }
