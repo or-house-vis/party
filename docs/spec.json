@@ -79,7 +79,7 @@
               }
             },
             "x": {
-              "field": "n_over_side",
+              "field": "seats_over_side",
               "type": "quantitative",
               "stack": null,
               "axis": {

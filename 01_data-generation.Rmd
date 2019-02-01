@@ -1,0 +1,271 @@
+---
+output: github_document
+---
+
+```{r setup}
+library(here)
+library(tidyverse)
+library(glue)
+library(sf)
+# devtools::install_github("or-house-vis/history")
+library(history) 
+```
+
+# Seats held by two major parties
+
+## Calculate seats over majority
+
+Summarize seats held by each party each regular session:
+```{r seats-by-party}
+party_seats_held <- house_reps_regular %>% 
+  group_by(session_year, party) %>% 
+  count() %>% 
+  ungroup() %>% 
+  complete(session_year, party, fill = list(n = 0))
+  # filled out so there is a row for every party in every year
+
+party_seats_sum <- party_seats_held %>% 
+  group_by(session_year) %>% 
+  mutate(
+    # put in explicit missings for the years with no records
+    n = if_else(session_year %in% 1887:1891, NA_real_, n),
+    filled_seats = sum(n),
+    prop = n/filled_seats
+  )
+
+# check for record gap
+party_seats_sum %>% 
+  ggplot(aes(session_year, n)) +
+    geom_line(aes(color = party)) +
+    facet_wrap(~ party) +
+    scale_color_manual(values = party_colors)
+```
+
+How many seats over majority?
+```{r}
+party_seats_over <- party_seats_sum %>% 
+  mutate(
+    required_thresh = floor(filled_seats/2),
+    seats_over = if_else(n > required_thresh, n - required_thresh, 0)
+  ) 
+```
+
+Just Republicans and Democrats
+```{r}
+dr_seats_over <- party_seats_over %>% 
+  filter(party %in% c("Republican", "Democrat"))
+```
+
+Flip democrats to be negative to put them on LHS of zero
+```{r}
+dr_seats_over <- dr_seats_over %>% 
+  mutate(
+    side = if_else(party == "Democrat", -1, 1),
+    seats_over_side = seats_over * side
+  )
+```
+
+Static version of interactive timeline
+```{r timeline}
+dr_seats_over %>% 
+  ggplot(aes(-session_year, seats_over_side)) + 
+    geom_line(aes(color = party)) + 
+    geom_area(aes(fill = party), alpha = 0.5, position = "identity") +
+    coord_flip(clip = "off") +
+    scale_x_continuous(expand = c(0, 0),
+      breaks = c(-1860, seq(-1875, -2018, by = -25), -2018),
+      labels = -1*c(-1860, seq(-1875, -2018, by = -25), -2018)) +
+    scale_y_continuous("", limits = c(-30, 40),
+      breaks = c(-30, -15, 0, 15, 30),
+      labels = c(30, 15, 0, 15, 30), position = "right",
+      sec.axis = dup_axis())  +
+    scale_fill_manual(values = party_colors) +
+    scale_color_manual(values = party_colors)
+```
+
+## Add captions
+
+Caption for a session year, describing which of the two major parties has a majority and by how many seats:
+```{r, warning = FALSE}
+year_captions <- dr_seats_over %>% 
+  arrange(session_year) %>% 
+  group_by(session_year) %>% 
+  filter(abs(seats_over_side) > 0) %>% 
+  mutate(
+    seats = abs(seats_over_side),
+    color = party_colors[party],
+    caption = glue('
+      <strong>{session_year}</strong> <span style = "color:{color}">{party}s</span> have  {seats} seats over a majority.')
+  ) %>% 
+  select(session_year, caption) 
+  
+weird_year_captions <- tribble(
+    ~ session_year, ~ caption,
+    1874, "Neither party has a majority.",
+    1887, "Party affiliations unknown.",
+    1889, "Party affiliations unknown.",
+    1891, "Party affiliations unknown.",
+    2011, "Equally split between parties.",
+    2012, "Equally split between parties.") %>% 
+  mutate(caption = glue("<strong>{session_year}</strong> {caption}"))
+
+year_captions <- bind_rows(year_captions, weird_year_captions)
+```
+
+Tabulations for all parties for each session year:
+```{r, warning = FALSE}
+# only need rows for parties represented in the session_year, 
+# with parties listed from highest seats to lowest seats
+party_seats_tab <- party_seats_sum %>% 
+  filter(n != 0) %>% 
+  arrange(session_year, desc(n)) %>% 
+  select(session_year, party, n)
+
+party_tables <- party_seats_tab %>% 
+  nest() %>% 
+  mutate(
+    table = map(data, knitr::kable, 
+      format = "html",
+      row.names = FALSE,
+      col.names = c("Party", "Seats")),
+    table_str = as.character(table)
+  ) %>% 
+  select(session_year, table_str)
+```
+
+Put all together, will have captions duplicated for both Democrat and Republican rows:
+```{r}
+dr_seats_over_captioned <- dr_seats_over %>% 
+  left_join(year_captions) %>% 
+  left_join(party_tables) %>% 
+  select(session_year, party, seats_over_side, caption, table_str) 
+```
+
+To Do: 
+
+[ ] add way to test this with vega-lite that doesn't clobber published spec.
+
+# Seats
+
+Get geojson from https://github.com/or-house-vis/seat-layout
+```{r}
+url <- "https://raw.githubusercontent.com/or-house-vis/seat-layout/master/seats.json"
+local <- here("docs", "data", "seats.json")
+not_ok <- download.file(url, local)
+stopifnot(!not_ok)
+
+seats <- sf::read_sf(local)
+seats %>% 
+  select(col, row, seat)
+
+# function to find seat number where
+# seats are filled top to bottom, from outside in
+find_seats <- function(ids, seats_df){
+  seats_df %>% 
+    arrange(row, abs(col - 4.5)) %>% 
+    slice(seq_len(length(ids))) %>% 
+    arrange(col, row) %>% 
+    pull(seat)
+}
+```
+
+# Individual Legislator data
+
+## Get and assign to seats based on party and gender
+```{r}
+legislators <- house_reps_regular %>% 
+  mutate(
+    party = party %>% 
+      as_factor() %>% 
+      fct_explicit_na() %>% 
+      fct_relevel("(Missing)", after = 2)
+    ) %>% 
+  select(session_year, legislator, party, gender, residence, profession,
+    notes) %>% 
+  group_by(session_year) %>% 
+  arrange(session_year, party, gender) %>% 
+  mutate(id = 1:n(),
+    seat = find_seats(id, seats))
+```
+
+Check on ordering:
+```{r seat-assignment-check}
+legislators %>% 
+  filter(session_year == 2018) %>% 
+  left_join(seats) %>% 
+  ggplot() + 
+    geom_sf(aes(fill =  party, alpha = gender)) +
+    geom_sf_text(aes(label = seat))
+```
+
+## Legislator Captions
+
+Clean up names and long strings in notes and residence:
+```{r}
+legislators_nice <- legislators %>% 
+  mutate(name_split = str_split(legislator, ",", n = 2),
+    # clean up names
+    bad_name = map_lgl(name_split, ~ length(.) < 2),
+    last_name = map_chr(name_split, 1) %>% str_trim(),
+    first_name = ifelse(bad_name,
+      list(c("")),
+      map(name_split, 2)) %>% flatten_chr() %>% str_trim(),
+    nice_name = str_c(first_name, last_name, sep = " "),
+    # clean and wrap notes and residence
+    notes = str_replace(notes, "\n", " ") %>% 
+      str_wrap(width = 40) %>% 
+      str_replace_all("\n", "<br/>"),
+    residence = residence %>% 
+      str_wrap(width = 40) %>% 
+      str_replace_all("\n", "<br/>"))
+```
+
+Compose caption:
+```{r, warning = FALSE}
+legislators_captions <- legislators_nice  %>% 
+  mutate(
+    caption = glue('
+      <strong>{nice_name}</strong><br/>
+      {party}<br/>
+      {gender}<br/>
+      Representing {residence}
+    '
+    ),
+    caption = ifelse(is.na(notes), caption, 
+      str_c(caption, "<br/><br/><em>", notes, "</em>"))
+) %>% 
+  select(session_year, legislator, caption) 
+```
+
+## Putting it all together
+
+```{r}
+people <- legislators %>% 
+  left_join(legislators_captions) %>% 
+  select(session_year, legislator, party, id, seat, caption) %>% 
+  mutate(data = "legislators") 
+
+years <- dr_seats_over_captioned %>% 
+  mutate(data = "majority")
+
+all <- years %>% 
+  ungroup() %>% 
+  bind_rows(people) %>% 
+  mutate(session_year = ISOdate(year = session_year, month = 1, day = 1,
+    tz = "utc")) 
+```
+
+Examine changes
+```{r, eval = FALSE}
+old <- read_csv(here("docs", "data", "vega-all.csv"))
+diffs <- diff_data(all, old, ordered = FALSE)
+render_diff(diffs)
+```
+
+
+Overwrite old data
+```{r}
+all %>%
+  write_csv(here("docs", "data", "vega-all.csv"))
+```
+
