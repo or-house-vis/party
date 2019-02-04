@@ -1,0 +1,395 @@
+---
+output: github_document
+---
+
+```{r}
+library(history)
+library(tidyverse)
+library(jsonlite)
+library(here)
+```
+```{r}
+party_colors <- c(party_colors, `Unknown Affiliation` = "#999999")
+```
+
+```{r}
+end_year <- 2019
+```
+
+```{r spec}
+spec <- list(
+    `$schema` = "https://vega.github.io/schema/vega-lite/v3.json", 
+    data = list(url = "data/vega-all.csv"),
+    description = "House majority over time",
+    config = list(style = list(cell = list(stroke = "transparent"))))
+```
+
+```{r majority-over-time-plot2 }
+year_selection <- 
+  list(
+      brush = list(
+        type = "single",
+        fields = list("session_year"),
+        nearest = TRUE,
+        resolve = "global",
+        empty = "none"
+        )
+      )
+
+majority_over_time_plot2 <- list(
+  transform = list(
+    list(
+      filter = list(
+        field = "data", equal = "majority")
+        )
+    ),
+  layer = list(
+    list( 
+      selection = year_selection,
+      mark = "area",
+      encoding = list(
+        y = list(
+          field = "session_year", 
+          type = "temporal",
+          timeUnit = "year",
+          sort = "descending",
+          scale = list(
+            domain = c(1860, end_year + 1)
+          ),
+          axis = list(
+            title = "",
+            values = c(1860, seq(1875, end_year, by = 25), end_year)
+          )
+        ),
+        x = list(
+          field = "seats_over_side",  
+          type = "quantitative",
+          stack = NULL,
+          axis = 
+            list(
+              title = "Seats over majority"
+            )
+        ),
+        color = list(
+          field = "party",
+          type = "nominal",
+          scale = list(
+            domain = names(party_colors), 
+            range = party_colors
+        ),
+          legend = NULL
+      ),
+      opacity = list(value = 0.8),
+      tooltip = list(value = NULL)
+      )
+    ),
+    list(
+      mark = "rect",
+      encoding = list(
+        y = list(
+          field = "session_year", 
+          type = "temporal",
+          timeUnit = "year",
+          sort = "descending"
+        ),
+        opacity = list(value = 0),
+        tooltip = list(field = "caption", type = "nominal")
+        )
+    )
+  )
+)
+```
+
+```{r legislator-plot2}
+legislator_plot2 <- list(
+  transform = list(
+    list(
+      filter = list(
+        field = "data", equal = "legislators")
+    ),
+    list(
+      lookup = "seat",
+      from = list(
+        data = list(
+          url = "data/seats.json",
+          format = list(type = "json", property = "features")),
+        key = "properties.seat"
+      ),
+      as = "shape"),
+    list(
+        filter = list(
+          selection = "brush")
+        )
+  ),
+  mark = "geoshape",
+  encoding = list(
+    shape = list(
+      field = "shape",
+      type = "geojson"
+    ),
+    color = list(
+      field = "party",
+      type = "nominal",
+      scale = list(
+        domain = names(party_colors), 
+        range = party_colors
+      ),
+      legend = NULL
+    ),
+    opacity = list(
+      field = "Gender",
+      type = "nominal",
+      scale = list(
+              domain = list("Male", "Female"),
+              range = list(0.8L, 0.25)
+            ),
+      legend = list(
+              title = NULL,
+              orient = "bottom",
+              direction = "horizontal",
+              values = list("Male", "Female")
+            )
+    ),
+    tooltip = list(
+            field = "caption"
+      
+    )
+  )
+)
+```
+
+```{r legislator-plot4}
+legislator_plot4 <- list(
+  transform = list(
+    list(
+      filter = list(
+        field = "data", equal = "legislators")
+    ),
+    list(
+        filter = list(
+          selection = "brush")
+    )
+  ),
+  mark = list(
+    type = "text",
+    fontSize = 20
+  ),
+  encoding = list(
+    x = list(
+      value = 0
+    ),
+    y = list(value  = 0),
+    text = list(
+      aggregate = "min",
+      field = "session_year",
+      type = "temporal",
+      timeUnit = "year"
+    ),
+    tooltip = list(
+      value = NULL
+    )
+  )
+)
+```
+
+
+```{r selection}
+selection_on = list(merge = list(
+  list(type = "mousemove",
+    between = list(list(type = "mousedown"), list(type = "mouseup"))),
+  list(type = "mousedown")
+))
+
+majority_over_time_plot2$layer[[1]]$selection <- list(
+      brush = list(
+        type = "single",
+        on = selection_on,
+        fields = list("session_year"),
+        nearest = TRUE,
+        resolve = "global",
+        empty = "none"
+        )
+      )
+```
+
+
+```{r time-selection-line}
+time_selection_line <- list(
+  transform = list(
+    list(
+      filter = list(
+        selection = "brush")
+    )
+  ),
+  mark = "rule",
+  encoding = list(
+    y = list(
+      field = "session_year", 
+      type = "temporal",
+      timeUnit = "year",
+      sort = "descending"
+      
+    ),
+    tooltip = list(
+      value = NULL
+    )
+  )
+)
+
+majority_over_time_plot2$layer[[3]] <- time_selection_line
+```
+
+
+```{r}
+legislator_plot2$encoding$fill <- legislator_plot2$encoding$color
+legislator_plot2$encoding$color <- NULL
+legislator_plot2$encoding$opacity <- list(value = 0.75)
+legislator_plot2$encoding$stroke <- list(value = "#999")
+
+majority_over_time_plot2$layer[[1]]$encoding$x$axis$orient <- "top"
+majority_over_time_plot2$layer[[1]]$mark <- list(type = "area", line = TRUE)
+majority_over_time_plot2$layer[[1]]$encoding$opacity <- list(value = 0.5)
+
+spec$resolve <- list(scale = list(
+  color = "independent",
+  opacity = "independent"))
+```
+
+
+```{r legislator_plot6}
+# Just numbers, party data
+legislator_plot6 <- list(
+  transform = list(
+    list(
+      filter = list(
+        field = "data", equal = "legislators")
+    ),
+    list(
+        filter = list(
+          selection = "brush")
+    ),
+    list(
+      calculate = "30",
+      as = "party_pos"
+    ),
+    list(
+      calculate = "'seats'",
+      as = "text_seats"
+    )
+  ),
+  encoding = list(
+    y = list(
+      field = "party",
+      type = "nominal",
+      sort = list(
+        op = "distinct",
+        field = "legislator",
+        order = "descending"
+      ),
+      scale = list(
+        rangeStep = 25
+      ),
+      axis = NULL
+    ),
+    x = list(
+          field = "party_pos",
+          type = "quantitative",
+          scale = list(
+            domain = list(0, 60)
+          ),
+        axis = NULL
+        ),
+    color = list(
+          field = "party",
+          type = "nominal",
+          scale = list(
+            domain = names(party_colors), 
+            range = party_colors
+          ),
+          legend = NULL
+      ),
+    tooltip = list(
+      value = NULL
+    ),
+    opacity = list(
+      value = 0.75
+    )
+  ),
+  layer = list(
+    list(
+      mark = list(
+        type = "text",
+        align = "right",
+        baseline = "middle",
+        fontSize = 20,
+        dx = -3
+      ),
+      encoding = list(
+         text = list(
+            aggregate = "min",
+            field = "party",
+            type = "nominal"
+        )
+      )),
+    list(
+      mark = list(
+        type = "text",
+        align = "left",
+        baseline = "middle",
+        dx = 3,
+        fontSize = 20
+      ),
+      encoding = list(
+        text = list(
+            aggregate = "distinct",
+            field = "legislator",
+            type = "quantitative"
+        )
+      )
+     ),
+    list(
+      mark = list(
+        type = "text",
+        align = "left",
+        baseline = "middle",
+        dx = 28,
+        fontSize = 14
+      ),
+      encoding = list(
+        text = list(
+          aggregate = "min",
+          field = "text_seats",
+          type = "nominal"
+        )
+      )
+    )
+  )
+)
+```
+
+```{r merge-save}
+both_plots2 <- list(
+  hconcat = list(
+    c(width = 200, height = 600, majority_over_time_plot2),
+    list(vconcat = list(
+      c(width = 400, height = 20,  
+        list(
+          layer = list(
+            legislator_plot4
+        ))
+        ),
+      c(width = 400, height = 400, legislator_plot2),
+      c(legislator_plot6)),
+      center = TRUE,
+      spacing = 20)
+  ),
+  spacing = 100
+)
+
+
+spec %>% 
+  c(both_plots2) %>% 
+  write_json(here("docs", "spec.json"), 
+  auto_unbox = TRUE, pretty = TRUE, null = "null")
+```
+

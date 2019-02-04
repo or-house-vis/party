@@ -91,32 +91,8 @@
               "field": "party",
               "type": "nominal",
               "scale": {
-                "domain": [
-                  "Democrat",
-                  "Independent",
-                  "Progressive Democrat",
-                  "Progressive Republican",
-                  "People's",
-                  "Federalist",
-                  "Citizen",
-                  "Union",
-                  "Republican",
-                  "Whig",
-                  "Unknown Affiliation"
-                ],
-                "range": [
-                  "#377EB8",
-                  "#FFD92F",
-                  "#8C7FCF",
-                  "#A34E89",
-                  "#8dd3c7",
-                  "#984ea3",
-                  "#F58518",
-                  "#a65628",
-                  "#E41A1C",
-                  "#D8B585",
-                  "#999999"
-                ]
+                "domain": ["Democrat", "Independent", "Progressive Democrat", "Progressive Republican", "People's", "Federalist", "Citizen", "Union", "Republican", "Whig", "Unknown Affiliation"],
+                "range": ["#377EB8", "#FFD92F", "#8C7FCF", "#A34E89", "#8dd3c7", "#984ea3", "#F58518", "#a65628", "#E41A1C", "#D8B585", "#999999"]
               },
               "legend": null
             },
@@ -259,32 +235,8 @@
               "field": "party",
               "type": "nominal",
               "scale": {
-                "domain": [
-                  "Democrat",
-                  "Independent",
-                  "Progressive Democrat",
-                  "Progressive Republican",
-                  "People's",
-                  "Federalist",
-                  "Citizen",
-                  "Union",
-                  "Republican",
-                  "Whig",
-                  "Unknown Affiliation"
-                ],
-                "range": [
-                  "#377EB8",
-                  "#FFD92F",
-                  "#8C7FCF",
-                  "#A34E89",
-                  "#8dd3c7",
-                  "#984ea3",
-                  "#F58518",
-                  "#a65628",
-                  "#E41A1C",
-                  "#D8B585",
-                  "#999999"
-                ]
+                "domain": ["Democrat", "Independent", "Progressive Democrat", "Progressive Republican", "People's", "Federalist", "Citizen", "Union", "Republican", "Whig", "Unknown Affiliation"],
+                "range": ["#377EB8", "#FFD92F", "#8C7FCF", "#A34E89", "#8dd3c7", "#984ea3", "#F58518", "#a65628", "#E41A1C", "#D8B585", "#999999"]
               },
               "legend": null
             },
@@ -344,32 +296,8 @@
               "field": "party",
               "type": "nominal",
               "scale": {
-                "domain": [
-                  "Democrat",
-                  "Independent",
-                  "Progressive Democrat",
-                  "Progressive Republican",
-                  "People's",
-                  "Federalist",
-                  "Citizen",
-                  "Union",
-                  "Republican",
-                  "Whig",
-                  "Unknown Affiliation"
-                ],
-                "range": [
-                  "#377EB8",
-                  "#FFD92F",
-                  "#8C7FCF",
-                  "#A34E89",
-                  "#8dd3c7",
-                  "#984ea3",
-                  "#F58518",
-                  "#a65628",
-                  "#E41A1C",
-                  "#D8B585",
-                  "#999999"
-                ]
+                "domain": ["Democrat", "Independent", "Progressive Democrat", "Progressive Republican", "People's", "Federalist", "Citizen", "Union", "Republican", "Whig", "Unknown Affiliation"],
+                "range": ["#377EB8", "#FFD92F", "#8C7FCF", "#A34E89", "#8dd3c7", "#984ea3", "#F58518", "#a65628", "#E41A1C", "#D8B585", "#999999"]
               },
               "legend": null
             },
