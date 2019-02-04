@@ -3294,10 +3294,10 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1866-01-01T12:00:00Z,Republican,NA,<strong>A. Hinman</strong><br/>Republican<br/>Male<br/>Representing Washington.,NA,legislators,"Hinman, A.",41,37
 1866-01-01T12:00:00Z,Republican,NA,<strong>Robert R Laughlin</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Laughlin, Robert R",42,45
 1866-01-01T12:00:00Z,Republican,NA,<strong>J. Lamson</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Lamson, J.",43,14
-1866-01-01T12:00:00Z,(Missing),NA,<strong>Thomas H Brentz</strong><br/>(Missing)<br/>Male<br/>Representing Grant.,NA,legislators,"Brentz, Thomas H",44,22
-1866-01-01T12:00:00Z,(Missing),NA,<strong>M. M. McKean</strong><br/>(Missing)<br/>Male<br/>Representing Grant.,NA,legislators,"McKean, M. M.",45,30
-1866-01-01T12:00:00Z,(Missing),NA,<strong>J. E. P. Withers</strong><br/>(Missing)<br/>Male<br/>Representing Lane.,NA,legislators,"Withers, J. E. P.",46,38
-1866-01-01T12:00:00Z,(Missing),NA,<strong>F. T. Dodge</strong><br/>(Missing)<br/>Male<br/>Representing Wasco.,NA,legislators,"Dodge, F. T.",47,46
+1866-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>Thomas H Brentz</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grant.,NA,legislators,"Brentz, Thomas H",44,22
+1866-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>M. M. McKean</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grant.,NA,legislators,"McKean, M. M.",45,30
+1866-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>J. E. P. Withers</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lane.,NA,legislators,"Withers, J. E. P.",46,38
+1866-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>F. T. Dodge</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wasco.,NA,legislators,"Dodge, F. T.",47,46
 1868-01-01T12:00:00Z,Democrat,NA,<strong>R. Beers</strong><br/>Democrat<br/>Male<br/>Representing Baker.,NA,legislators,"Beers, R.",1,7
 1868-01-01T12:00:00Z,Democrat,NA,<strong>J. B. White</strong><br/>Democrat<br/>Male<br/>Representing Jackson.,NA,legislators,"White, J. B.",2,15
 1868-01-01T12:00:00Z,Democrat,NA,<strong>Thomas Smith</strong><br/>Democrat<br/>Male<br/>Representing Jackson.,NA,legislators,"Smith, Thomas",3,23
@@ -3339,8 +3339,8 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1868-01-01T12:00:00Z,Republican,NA,<strong>Edward Jackson</strong><br/>Republican<br/>Male<br/>Representing Washington.,NA,legislators,"Jackson, Edward",39,37
 1868-01-01T12:00:00Z,Republican,NA,<strong>W. W. Brown</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Brown, W. W.",40,14
 1868-01-01T12:00:00Z,Republican,NA,<strong>G. W. Burnett</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Burnett, G. W.",41,22
-1868-01-01T12:00:00Z,(Missing),NA,"<strong>D. R. Benson</strong><br/>(Missing)<br/>Male<br/>Representing Baker, Union.",NA,legislators,"Benson, D. R.",42,30
-1868-01-01T12:00:00Z,(Missing),NA,<strong>R. W. Neal</strong><br/>(Missing)<br/>Male<br/>Representing Grant.,NA,legislators,"Neal, R. W.",43,38
+1868-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. R. Benson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Baker, Union.",NA,legislators,"Benson, D. R.",42,30
+1868-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>R. W. Neal</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grant.,NA,legislators,"Neal, R. W.",43,38
 1870-01-01T12:00:00Z,Democrat,NA,<strong>W. F. Alexander</strong><br/>Democrat<br/>Male<br/>Representing Linn.,NA,legislators,"Alexander, W. F.",1,7
 1870-01-01T12:00:00Z,Democrat,NA,<strong>L. F. Amis</strong><br/>Democrat<br/>Male<br/>Representing Lane.,NA,legislators,"Amis, L. F.",2,15
 1870-01-01T12:00:00Z,Democrat,NA,<strong>A. J. Burnett</strong><br/>Democrat<br/>Male<br/>Representing Jackson.,NA,legislators,"Burnett, A. J.",3,23
@@ -3611,7 +3611,7 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1878-01-01T12:00:00Z,Republican,NA,<strong>R. H. Tyson</strong><br/>Republican<br/>Male<br/>Representing Washington.,NA,legislators,"Tyson, R. H.",55,22
 1878-01-01T12:00:00Z,Republican,NA,<strong>J. C. Bewley</strong><br/>Republican<br/>Male<br/>Representing Tillamook.,NA,legislators,"Bewley, J. C.",56,30
 1878-01-01T12:00:00Z,Republican,NA,<strong>D. O. Durham</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Durham, D. O.",57,38
-1878-01-01T12:00:00Z,(Missing),NA,<strong>H. Green</strong><br/>(Missing)<br/>Male<br/>Representing Benton.,NA,legislators,"Green, H.",58,46
+1878-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>H. Green</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Benton.,NA,legislators,"Green, H.",58,46
 1878-01-01T12:00:00Z,Independent,NA,<strong>Matthew Fountain</strong><br/>Independent<br/>Male<br/>Representing Jackson.,NA,legislators,"Fountain, Matthew",59,54
 1878-01-01T12:00:00Z,Independent,NA,<strong>William Kahler</strong><br/>Independent<br/>Male<br/>Representing Jackson.,NA,legislators,"Kahler, William",60,60
 1880-01-01T12:00:00Z,Democrat,NA,<strong>A. J. Lawrence</strong><br/>Democrat<br/>Male<br/>Representing Baker.,NA,legislators,"Lawrence, A. J.",1,7
@@ -3673,7 +3673,7 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1880-01-01T12:00:00Z,Republican,NA,<strong>L. Patterson</strong><br/>Republican<br/>Male<br/>Representing Washington.,NA,legislators,"Patterson, L.",57,38
 1880-01-01T12:00:00Z,Republican,NA,<strong>Lee Laughlin</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Laughlin, Lee",58,46
 1880-01-01T12:00:00Z,Republican,NA,<strong>D. O. Durham</strong><br/>Republican<br/>Male<br/>Representing Yamhill.,NA,legislators,"Durham, D. O.",59,54
-1880-01-01T12:00:00Z,(Missing),NA,<strong>Terry Tuttle</strong><br/>(Missing)<br/>Male<br/>Representing Union.,NA,legislators,"Tuttle, Terry",60,60
+1880-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>Terry Tuttle</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Union.,NA,legislators,"Tuttle, Terry",60,60
 1882-01-01T12:00:00Z,Democrat,NA,<strong>L. B. Ison</strong><br/>Democrat<br/>Male<br/>Representing Baker.,NA,legislators,"Ison, L. B.",1,7
 1882-01-01T12:00:00Z,Democrat,NA,<strong>W. R. Curtis</strong><br/>Democrat<br/>Male<br/>Representing Baker.,NA,legislators,"Curtis, W. R.",2,15
 1882-01-01T12:00:00Z,Democrat,NA,<strong>Allen Parker</strong><br/>Democrat<br/>Male<br/>Representing Benton.,NA,legislators,"Parker, Allen",3,23
@@ -3793,177 +3793,177 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1885-01-01T12:00:00Z,Republican,NA,"<strong>I. L. Smith</strong><br/>Republican<br/>Male<br/>Representing Forest Grove, Washington.",NA,legislators,"Smith, I. L.",58,46
 1885-01-01T12:00:00Z,Republican,NA,"<strong>James Riley Sanders</strong><br/>Republican<br/>Male<br/>Representing Amity, Yamhill.",NA,legislators,"Sanders, James Riley",59,54
 1885-01-01T12:00:00Z,Republican,NA,"<strong>E. H. Woodward</strong><br/>Republican<br/>Male<br/>Representing Newberg, Yamhill.",NA,legislators,"Woodward, E. H.",60,60
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>R. A. Lockett</strong><br/>(Missing)<br/>Male<br/>Representing Dell, Baker.",NA,legislators,"Lockett, R. A.",1,7
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. M. Osborn</strong><br/>(Missing)<br/>Male<br/>Representing Corvallis, Benton.",NA,legislators,"Osborn, J. M.",2,15
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>D. H. Vanderpool</strong><br/>(Missing)<br/>Male<br/>Representing Wells, Benton.",NA,legislators,"Vanderpool, D. H.",3,23
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>M. M. Davis</strong><br/>(Missing)<br/>Male<br/>Representing Yaquina, Benton.",NA,legislators,"Davis, M. M.",4,31
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>M. P. Gard</strong><br/>(Missing)<br/>Male<br/>Representing Viola, Clackamas.",NA,legislators,"Gard, M. P.",5,39
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>L. Mayer</strong><br/>(Missing)<br/>Male<br/>Representing Molalla, Clackamas.",NA,legislators,"Mayer, L.",6,1
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>P. S. Noyer</strong><br/>(Missing)<br/>Male<br/>Representing Molalla, Clackamas.",NA,legislators,"Noyer, P. S.",7,8
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. W. Maxwell</strong><br/>(Missing)<br/>Male<br/>Representing Netarts, Clackamas, Tillamook, Columbia.",NA,legislators,"Maxwell, J. W.",8,16
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>M. Pomeroy</strong><br/>(Missing)<br/>Male<br/>Representing Rainier, Columbia.",NA,legislators,"Pomeroy, M.",9,24
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. S. Roberts</strong><br/>(Missing)<br/>Male<br/>Representing Myrtle Point, Coos.",NA,legislators,"Roberts, J. S.",10,32
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>A. H. Crook</strong><br/>(Missing)<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",11,40
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>W. H. Wilcox</strong><br/>(Missing)<br/>Male<br/>Representing Fossil, Crook, Gilliam, Wasco.",NA,legislators,"Wilcox, W. H.",12,48
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>W. F. Benjamin</strong><br/>(Missing)<br/>Male<br/>Representing Roseburg, Douglas.",NA,legislators,"Benjamin, W. F.",13,2
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>James E. Blundell</strong><br/>(Missing)<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, James E.",14,9
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>H. McKenzie</strong><br/>(Missing)<br/>Male<br/>Representing Drain, Douglas.",NA,legislators,"McKenzie, H.",15,17
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>P. P. Palmer</strong><br/>(Missing)<br/>Male<br/>Representing Scottsburg, Douglas.",NA,legislators,"Palmer, P. P.",16,25
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. T. Bowditch</strong><br/>(Missing)<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"Bowditch, J. T.",17,33
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>R. A. Miller</strong><br/>(Missing)<br/>Male<br/>Representing Jacksonville, Jackson.",NA,legislators,"Miller, R. A.",18,41
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>S. U. Mitchell</strong><br/>(Missing)<br/>Male<br/>Representing Grants Pass, Josephine.",NA,legislators,"Mitchell, S. U.",19,49
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>L. Bilyeu</strong><br/>(Missing)<br/>Male<br/>Representing Eugene, Lane.",NA,legislators,"Bilyeu, L.",20,3
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>C. K. Hale</strong><br/>(Missing)<br/>Male<br/>Representing Hale, Lane.",NA,legislators,"Hale, C. K.",21,10
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>S. G. Thompson</strong><br/>(Missing)<br/>Male<br/>Representing Pine, Lane.",NA,legislators,"Thompson, S. G.",22,18
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. M. Stafford</strong><br/>(Missing)<br/>Male<br/>Representing Eugene, Lane.",NA,legislators,"Stafford, J. M.",23,26
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>Robert McLean</strong><br/>(Missing)<br/>Male<br/>Representing Linkville, Klamath, Lake.",NA,legislators,"McLean, Robert",24,34
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>A. Blevins</strong><br/>(Missing)<br/>Male<br/>Representing Tangent, Linn.",NA,legislators,"Blevins, A.",25,42
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>I. D. Miller</strong><br/>(Missing)<br/>Male<br/>Representing Miller, Linn.",NA,legislators,"Miller, I. D.",26,50
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>W. W. Richardson</strong><br/>(Missing)<br/>Male<br/>Representing Scio, Linn.",NA,legislators,"Richardson, W. W.",27,4
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. W. Swank</strong><br/>(Missing)<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Swank, J. W.",28,11
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>W. B. Culver</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Culver, W. B.",29,19
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>S. Layman</strong><br/>(Missing)<br/>Male<br/>Representing Woodburn, Marion.",NA,legislators,"Layman, S.",30,27
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>D. J. Pendleton</strong><br/>(Missing)<br/>Male<br/>Representing Butteville, Marion.",NA,legislators,"Pendleton, D. J.",31,35
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. T. Gregg</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Gregg, J. T.",32,43
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>F. C. Hansard</strong><br/>(Missing)<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Hansard, F. C.",33,51
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>H. C. Gay</strong><br/>(Missing)<br/>Male<br/>Representing Heppner, Morrow.",NA,legislators,"Gay, H. C.",34,5
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>D. Goodsell</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Goodsell, D.",35,12
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>William Munger</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Munger, William",36,20
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>Donald MacKay</strong><br/>(Missing)<br/>Male<br/>Representing Multnomah, Multnomah.",NA,legislators,"MacKay, Donald",37,28
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>O. Summers</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Summers, O.",38,36
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>John Wilson</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Wilson, John",39,44
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>J. J. Daly</strong><br/>(Missing)<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Daly, J. J.",40,52
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>P. W. Haley</strong><br/>(Missing)<br/>Male<br/>Representing Independence, Polk.",NA,legislators,"Haley, P. W.",41,6
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>F. M. Crockett</strong><br/>(Missing)<br/>Male<br/>Representing Milton, Umatilla.",NA,legislators,"Crockett, F. M.",42,13
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>F. D. McCully</strong><br/>(Missing)<br/>Male<br/>Representing Joseph, Union.",NA,legislators,"McCully, F. D.",43,21
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>E. E. Taylor</strong><br/>(Missing)<br/>Male<br/>Representing Summerville, Union.",NA,legislators,"Taylor, E. E.",44,29
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>W. H. Biggs</strong><br/>(Missing)<br/>Male<br/>Representing Wasco, Wasco, Crook, Gilliam.",NA,legislators,"Biggs, W. H.",45,37
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>D Gubser</strong><br/>(Missing)<br/>Male<br/>Representing Middleton, Washington.",NA,legislators,"Gubser, D",46,45
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>T. Paulson</strong><br/>(Missing)<br/>Male<br/>Representing Garden Home, Washington.",NA,legislators,"Paulson, T.",47,14
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>D. Smith</strong><br/>(Missing)<br/>Male<br/>Representing Forest Grove, Washington.",NA,legislators,"Smith, D.",48,22
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>Charles LaFollett</strong><br/>(Missing)<br/>Male<br/>Representing Sheridan, Yamhill.",NA,legislators,"LaFollett, Charles",49,30
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>R. R. Laughlin</strong><br/>(Missing)<br/>Male<br/>Representing Yamhill, Yamhill.<br/><br/><em>The name of Mr. Laughlin is given as R.<br/>R. Laughlin and also as E. R. Laughlin<br/>in the House Journal</em>",NA,legislators,"Laughlin, R. R.",50,38
-1887-01-01T12:00:00Z,(Missing),NA,"<strong>F. N. Little</strong><br/>(Missing)<br/>Male<br/>Representing Yamhill, Yamhill.",NA,legislators,"Little, F. N.",51,46
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>N. C. Haskell</strong><br/>(Missing)<br/>Male<br/>Representing Baker City, Baker.",NA,legislators,"Haskell, N. C.",1,7
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>C. B. Crosno</strong><br/>(Missing)<br/>Male<br/>Representing Toledo, Benton.",NA,legislators,"Crosno, C. B.",2,15
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>E. H. Belknap</strong><br/>(Missing)<br/>Male<br/>Representing Monroe, Benton.",NA,legislators,"Belknap, E. H.",3,23
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. T. Apperson</strong><br/>(Missing)<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Apperson, J. T.",4,31
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Peter Paquet</strong><br/>(Missing)<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Paquet, Peter",5,39
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>R. V. Short</strong><br/>(Missing)<br/>Male<br/>Representing Wilsonville, Clackamas.",NA,legislators,"Short, R. V.",6,47
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>John Hahn</strong><br/>(Missing)<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Hahn, John",7,55
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>H. B. Parker</strong><br/>(Missing)<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Parker, H. B.",8,1
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Judson Weed</strong><br/>(Missing)<br/>Male<br/>Representing Vernonia, Columbia.",NA,legislators,"Weed, Judson",9,8
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>John H. Roberts</strong><br/>(Missing)<br/>Male<br/>Representing Myrtle Point, Coos.",NA,legislators,"Roberts, John H.",10,16
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>A. H. Crook</strong><br/>(Missing)<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",11,24
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. N. Williamson</strong><br/>(Missing)<br/>Male<br/>Representing Prineville, Crook.",NA,legislators,"Williamson, J. N.",12,32
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. E. Blundell</strong><br/>(Missing)<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, J. E.",13,40
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>E. E. Labrie</strong><br/>(Missing)<br/>Male<br/>Representing Wilbur, Douglas.",NA,legislators,"Labrie, E. E.",14,48
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>C. E. Ricker</strong><br/>(Missing)<br/>Male<br/>Representing Gardiner, Douglas.",NA,legislators,"Ricker, C. E.",15,56
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. A. Thomas</strong><br/>(Missing)<br/>Male<br/>Representing Arlington, Gilliam.",NA,legislators,"Thomas, J. A.",16,2
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>G. W. Gilham</strong><br/>(Missing)<br/>Male<br/>Representing Harney, Grant.",NA,legislators,"Gilham, G. W.",17,9
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. T. Bowditch</strong><br/>(Missing)<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"Bowditch, J. T.",18,17
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>R. A. Miller</strong><br/>(Missing)<br/>Male<br/>Representing Jacksonville, Jackson.",NA,legislators,"Miller, R. A.",19,25
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>W. K. Price</strong><br/>(Missing)<br/>Male<br/>Representing Tolo, Jackson.",NA,legislators,"Price, W. K.",20,33
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>C. J. Howard</strong><br/>(Missing)<br/>Male<br/>Representing Kerbyville, Josephine.",NA,legislators,"Howard, C. J.",21,41
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>S. W. Condon</strong><br/>(Missing)<br/>Male<br/>Representing Eugene City, Lane.",NA,legislators,"Condon, S. W.",22,49
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>A. C. Jennings</strong><br/>(Missing)<br/>Male<br/>Representing Irving, Lane.",NA,legislators,"Jennings, A. C.",23,57
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. M. Stafford</strong><br/>(Missing)<br/>Male<br/>Representing Eugene City, Lane.",NA,legislators,"Stafford, J. M.",24,3
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>R. C. Miller</strong><br/>(Missing)<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Miller, R. C.",25,10
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. B. R. Morelock</strong><br/>(Missing)<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Morelock, J. B. R.",26,18
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Jefferson Myers</strong><br/>(Missing)<br/>Male<br/>Representing Scio, Linn.",NA,legislators,"Myers, Jefferson",27,26
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>S. P. Moss</strong><br/>(Missing)<br/>Male<br/>Representing Paisley, Lake, Klamath.",NA,legislators,"Moss, S. P.",28,34
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>William Armstrong</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Armstrong, William",29,42
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>T. T. Geer</strong><br/>(Missing)<br/>Male<br/>Representing Macleay, Marion.",NA,legislators,"Geer, T. T.",30,50
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Samuel Layman</strong><br/>(Missing)<br/>Male<br/>Representing Woodburn, Marion.",NA,legislators,"Layman, Samuel",31,4
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. B. Waldo</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Waldo, J. B.",32,11
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>John Q. Wilson</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Wilson, John Q.",33,19
-1889-01-01T12:00:00Z,(Missing),NA,<strong>H. P. Napton</strong><br/>(Missing)<br/>Male<br/>Representing Malheur.,NA,legislators,"Napton, H. P.",34,27
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>T. E. Fell</strong><br/>(Missing)<br/>Male<br/>Representing Heppner, Morrow.",NA,legislators,"Fell, T. E.",35,35
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>R. P. Earhart</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Earhart, R. P.",36,43
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. J. Fisher</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Fisher, J. J.",37,51
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>W. B. Gilbert</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Gilbert, W. B.",38,5
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>S. R. Harrington</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Harrington, S. R.",39,12
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>W. T. Hume</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Hume, W. T.",40,20
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>William M. Ladd</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Ladd, William M.",41,28
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>H. H. Northup</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Northup, H. H.",42,36
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. A. Strowbridge</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Strowbridge, J. A.",43,44
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>D. P. Thompson</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Thompson, D. P.",44,52
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>C. G. Fisher</strong><br/>(Missing)<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Fisher, C. G.",45,58
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>F. S. Powell</strong><br/>(Missing)<br/>Male<br/>Representing Monmouth, Polk.",NA,legislators,"Powell, F. S.",46,6
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. W. Maxwell</strong><br/>(Missing)<br/>Male<br/>Representing Netarts, Tillamook, Yamhill.",NA,legislators,"Maxwell, J. W.",47,13
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>H. J. Bean</strong><br/>(Missing)<br/>Male<br/>Representing Pendleton, Umatilla.",NA,legislators,"Bean, H. J.",48,21
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>E. B. Gambee</strong><br/>(Missing)<br/>Male<br/>Representing Alba, Umatilla.",NA,legislators,"Gambee, E. B.",49,29
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>T. J. Kirk</strong><br/>(Missing)<br/>Male<br/>Representing Pendleton, Umatilla.",NA,legislators,"Kirk, T. J.",50,37
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Charles Goodnough</strong><br/>(Missing)<br/>Male<br/>Representing Island City, Union.",NA,legislators,"Goodnough, Charles",51,45
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. L. Roe</strong><br/>(Missing)<br/>Male<br/>Representing Summerville, Union.",NA,legislators,"Roe, J. L.",52,53
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>James A. Hunter</strong><br/>(Missing)<br/>Male<br/>Representing Enterprise, Wallowa.",NA,legislators,"Hunter, James A.",53,59
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>E. O. McCoy</strong><br/>(Missing)<br/>Male<br/>Representing Grant, Wasco.",NA,legislators,"McCoy, E. O.",54,14
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>E. L. Smith</strong><br/>(Missing)<br/>Male<br/>Representing Hood River, Wasco.",NA,legislators,"Smith, E. L.",55,22
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. C. Moore</strong><br/>(Missing)<br/>Male<br/>Representing Greenville, Washington.",NA,legislators,"Moore, J. C.",56,30
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>Thomas Paulsen</strong><br/>(Missing)<br/>Male<br/>Representing Garden Home, Washington.",NA,legislators,"Paulsen, Thomas",57,38
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>J. V. Pope</strong><br/>(Missing)<br/>Male<br/>Representing Forest Grove, Washington.",NA,legislators,"Pope, J. V.",58,46
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>W. R. Derby</strong><br/>(Missing)<br/>Male<br/>Representing Lafeyette, Yamhill.",NA,legislators,"Derby, W. R.",59,54
-1889-01-01T12:00:00Z,(Missing),NA,"<strong>R. R. Laughlin</strong><br/>(Missing)<br/>Male<br/>Representing Yamhill, Yamhill.",NA,legislators,"Laughlin, R. R.",60,60
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Edwin Hardy</strong><br/>(Missing)<br/>Male<br/>Representing Baker City, Baker.",NA,legislators,"Hardy, Edwin",1,7
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>C. E. Moor</strong><br/>(Missing)<br/>Male<br/>Representing Corvallis, Benton.",NA,legislators,"Moor, C. E.",2,15
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>M. T. Starr</strong><br/>(Missing)<br/>Male<br/>Representing Monroe, Benton.",NA,legislators,"Starr, M. T.",3,23
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>E. M. Hartman</strong><br/>(Missing)<br/>Male<br/>Representing Marquam, Clackamas.",NA,legislators,"Hartman, E. M.",4,31
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Peter Paquet</strong><br/>(Missing)<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Paquet, Peter",5,39
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>James A. Tracy</strong><br/>(Missing)<br/>Male<br/>Representing Logan, Clackamas.",NA,legislators,"Tracy, James A.",6,47
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>John Fox</strong><br/>(Missing)<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Fox, John",7,55
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>James W. Welch</strong><br/>(Missing)<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Welch, James W.",8,1
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Judson Weed</strong><br/>(Missing)<br/>Male<br/>Representing Vernonia, Columbia.",NA,legislators,"Weed, Judson",9,8
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. D. Garfield</strong><br/>(Missing)<br/>Male<br/>Representing Marshfield, Coos.",NA,legislators,"Garfield, J. D.",10,16
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>T. J. Stephenson</strong><br/>(Missing)<br/>Male<br/>Representing Liberty, Crook.",NA,legislators,"Stephenson, T. J.",11,24
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>A. H. Crook</strong><br/>(Missing)<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",12,32
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. E. Blundell</strong><br/>(Missing)<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, J. E.",13,40
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. H. Leeper</strong><br/>(Missing)<br/>Male<br/>Representing Oakland, Douglas.",NA,legislators,"Leeper, W. H.",14,48
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>A. W. Reed</strong><br/>(Missing)<br/>Male<br/>Representing Gardiner, Douglas.",NA,legislators,"Reed, A. W.",15,56
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. J. Mulkey</strong><br/>(Missing)<br/>Male<br/>Representing Olex, Gilliam.",NA,legislators,"Mulkey, W. J.",16,2
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>C. S. Dustin</strong><br/>(Missing)<br/>Male<br/>Representing Long Creek, Grant.",NA,legislators,"Dustin, C. S.",17,9
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Samuel Furry</strong><br/>(Missing)<br/>Male<br/>Representing Phoenix, Jackson.",NA,legislators,"Furry, Samuel",18,17
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. M. McCall</strong><br/>(Missing)<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"McCall, J. M.",19,25
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. W. Merritt</strong><br/>(Missing)<br/>Male<br/>Representing Central Point, Jackson.",NA,legislators,"Merritt, J. W.",20,33
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>H. B. Miller</strong><br/>(Missing)<br/>Male<br/>Representing Grants Pass, Josephine.",NA,legislators,"Miller, H. B.",21,41
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>A. Snider</strong><br/>(Missing)<br/>Male<br/>Representing Lakeview, Klamath, Lake.",NA,legislators,"Snider, A.",22,49
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>E. P. Coleman</strong><br/>(Missing)<br/>Male<br/>Representing Coburg, Lane.",NA,legislators,"Coleman, E. P.",23,57
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>A. C. Jennings</strong><br/>(Missing)<br/>Male<br/>Representing Irving, Lane.",NA,legislators,"Jennings, A. C.",24,3
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Jasper Wilkins</strong><br/>(Missing)<br/>Male<br/>Representing Coburg, Lane.",NA,legislators,"Wilkins, Jasper",25,10
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>F. C. Hansard</strong><br/>(Missing)<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Hansard, F. C.",26,18
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. F. Henry</strong><br/>(Missing)<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Henry, J. F.",27,26
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>C. J. Shedd</strong><br/>(Missing)<br/>Male<br/>Representing Shedd Station, Linn.",NA,legislators,"Shedd, C. J.",28,34
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Thomas L. Littig</strong><br/>(Missing)<br/>Male<br/>Representing Malheur City, Malheur.",NA,legislators,"Littig, Thomas L.",29,42
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Wm. Armstrong</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Armstrong, Wm.",30,50
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. W. Baker</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Baker, J. W.",31,4
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>Theodore T. Geer</strong><br/>(Missing)<br/>Male<br/>Representing Macleay, Marion.",NA,legislators,"Geer, Theodore T.",32,11
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. H. Holmes</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Holmes, W. H.",33,19
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>John, IV Minto</strong><br/>(Missing)<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Minto, John, IV",34,27
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. C. Thompson</strong><br/>(Missing)<br/>Male<br/>Representing Lexington, Morrow.",NA,legislators,"Thompson, J. C.",35,35
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>O. F. Botkin</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Botkin, O. F.",36,43
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>John H. Hall</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Hall, John H.",37,51
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>John McCraken</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"McCraken, John",38,5
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>C. H. Meussdorffer</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Meussdorffer, C. H.",39,12
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. B. Montgomery</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Montgomery, J. B.",40,20
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>P. F. Morey</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Morey, P. F.",41,28
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. T. Stewart</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Stewart, J. T.",42,36
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>George L. Story</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Story, George L.",43,44
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. E. Thomas</strong><br/>(Missing)<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Thomas, W. E.",44,52
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>N. L. Butler</strong><br/>(Missing)<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Butler, N. L.",45,58
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>G. W. Myer</strong><br/>(Missing)<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Myer, G. W.",46,6
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>E. O. McCoy</strong><br/>(Missing)<br/>Male<br/>Representing Grant, Sherman, Wasco.",NA,legislators,"McCoy, E. O.",47,13
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>George W. Johnston</strong><br/>(Missing)<br/>Male<br/>Representing Dufur, Sherman, Wasco.",NA,legislators,"Johnston, George W.",48,21
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. D. Stillwell</strong><br/>(Missing)<br/>Male<br/>Representing Tillamook, Yamhill, Tillamook.",NA,legislators,"Stillwell, W. D.",49,29
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>E. A. Gambee</strong><br/>(Missing)<br/>Male<br/>Representing Alba, Umatilla.",NA,legislators,"Gambee, E. A.",50,37
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. L. Killian</strong><br/>(Missing)<br/>Male<br/>Representing Vansycle, Umatilla.",NA,legislators,"Killian, J. L.",51,45
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. S. Richey</strong><br/>(Missing)<br/>Male<br/>Representing Milton, Umatilla.",NA,legislators,"Richey, J. S.",52,53
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>John McAlister</strong><br/>(Missing)<br/>Male<br/>Representing LaGrande, Union.",NA,legislators,"McAlister, John",53,59
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. A. Wright</strong><br/>(Missing)<br/>Male<br/>Representing Sparta, Union.",NA,legislators,"Wright, J. A.",54,14
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>E. W. Barnes</strong><br/>(Missing)<br/>Male<br/>Representing Wallowa, Wallowa.",NA,legislators,"Barnes, E. W.",55,22
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>W. N. Barrett</strong><br/>(Missing)<br/>Male<br/>Representing Hillsboro, Washington.",NA,legislators,"Barrett, W. N.",56,30
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>S. A. Durham</strong><br/>(Missing)<br/>Male<br/>Representing Tualatin, Washington.",NA,legislators,"Durham, S. A.",57,38
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>J. C. Moore</strong><br/>(Missing)<br/>Male<br/>Representing Greenville, Washington.",NA,legislators,"Moore, J. C.",58,46
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>H. W. Lamson</strong><br/>(Missing)<br/>Male<br/>Representing Willamina, Yamhill.",NA,legislators,"Lamson, H. W.",59,54
-1891-01-01T12:00:00Z,(Missing),NA,"<strong>S. A. Manning</strong><br/>(Missing)<br/>Male<br/>Representing McMinnville, Yamhill.",NA,legislators,"Manning, S. A.",60,60
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. A. Lockett</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dell, Baker.",NA,legislators,"Lockett, R. A.",1,7
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. M. Osborn</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Corvallis, Benton.",NA,legislators,"Osborn, J. M.",2,15
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. H. Vanderpool</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wells, Benton.",NA,legislators,"Vanderpool, D. H.",3,23
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>M. M. Davis</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Yaquina, Benton.",NA,legislators,"Davis, M. M.",4,31
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>M. P. Gard</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Viola, Clackamas.",NA,legislators,"Gard, M. P.",5,39
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>L. Mayer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Molalla, Clackamas.",NA,legislators,"Mayer, L.",6,1
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>P. S. Noyer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Molalla, Clackamas.",NA,legislators,"Noyer, P. S.",7,8
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. W. Maxwell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Netarts, Clackamas, Tillamook, Columbia.",NA,legislators,"Maxwell, J. W.",8,16
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>M. Pomeroy</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Rainier, Columbia.",NA,legislators,"Pomeroy, M.",9,24
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. S. Roberts</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Myrtle Point, Coos.",NA,legislators,"Roberts, J. S.",10,32
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. H. Crook</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",11,40
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. H. Wilcox</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Fossil, Crook, Gilliam, Wasco.",NA,legislators,"Wilcox, W. H.",12,48
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. F. Benjamin</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Roseburg, Douglas.",NA,legislators,"Benjamin, W. F.",13,2
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>James E. Blundell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, James E.",14,9
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. McKenzie</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Drain, Douglas.",NA,legislators,"McKenzie, H.",15,17
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>P. P. Palmer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Scottsburg, Douglas.",NA,legislators,"Palmer, P. P.",16,25
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. T. Bowditch</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"Bowditch, J. T.",17,33
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. A. Miller</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Jacksonville, Jackson.",NA,legislators,"Miller, R. A.",18,41
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. U. Mitchell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grants Pass, Josephine.",NA,legislators,"Mitchell, S. U.",19,49
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>L. Bilyeu</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Eugene, Lane.",NA,legislators,"Bilyeu, L.",20,3
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. K. Hale</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Hale, Lane.",NA,legislators,"Hale, C. K.",21,10
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. G. Thompson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Pine, Lane.",NA,legislators,"Thompson, S. G.",22,18
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. M. Stafford</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Eugene, Lane.",NA,legislators,"Stafford, J. M.",23,26
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Robert McLean</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Linkville, Klamath, Lake.",NA,legislators,"McLean, Robert",24,34
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. Blevins</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Tangent, Linn.",NA,legislators,"Blevins, A.",25,42
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>I. D. Miller</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Miller, Linn.",NA,legislators,"Miller, I. D.",26,50
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. W. Richardson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Scio, Linn.",NA,legislators,"Richardson, W. W.",27,4
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. W. Swank</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Swank, J. W.",28,11
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. B. Culver</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Culver, W. B.",29,19
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. Layman</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Woodburn, Marion.",NA,legislators,"Layman, S.",30,27
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. J. Pendleton</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Butteville, Marion.",NA,legislators,"Pendleton, D. J.",31,35
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. T. Gregg</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Gregg, J. T.",32,43
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. C. Hansard</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Hansard, F. C.",33,51
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. C. Gay</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Heppner, Morrow.",NA,legislators,"Gay, H. C.",34,5
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. Goodsell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Goodsell, D.",35,12
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>William Munger</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Munger, William",36,20
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Donald MacKay</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Multnomah, Multnomah.",NA,legislators,"MacKay, Donald",37,28
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>O. Summers</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Summers, O.",38,36
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John Wilson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Wilson, John",39,44
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. J. Daly</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Daly, J. J.",40,52
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>P. W. Haley</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Independence, Polk.",NA,legislators,"Haley, P. W.",41,6
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. M. Crockett</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Milton, Umatilla.",NA,legislators,"Crockett, F. M.",42,13
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. D. McCully</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Joseph, Union.",NA,legislators,"McCully, F. D.",43,21
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. E. Taylor</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Summerville, Union.",NA,legislators,"Taylor, E. E.",44,29
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. H. Biggs</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wasco, Wasco, Crook, Gilliam.",NA,legislators,"Biggs, W. H.",45,37
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D Gubser</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Middleton, Washington.",NA,legislators,"Gubser, D",46,45
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>T. Paulson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Garden Home, Washington.",NA,legislators,"Paulson, T.",47,14
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. Smith</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Forest Grove, Washington.",NA,legislators,"Smith, D.",48,22
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Charles LaFollett</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Sheridan, Yamhill.",NA,legislators,"LaFollett, Charles",49,30
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. R. Laughlin</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Yamhill, Yamhill.<br/><br/><em>The name of Mr. Laughlin is given as R.<br/>R. Laughlin and also as E. R. Laughlin<br/>in the House Journal</em>",NA,legislators,"Laughlin, R. R.",50,38
+1887-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. N. Little</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Yamhill, Yamhill.",NA,legislators,"Little, F. N.",51,46
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>N. C. Haskell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Baker City, Baker.",NA,legislators,"Haskell, N. C.",1,7
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. B. Crosno</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Toledo, Benton.",NA,legislators,"Crosno, C. B.",2,15
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. H. Belknap</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Monroe, Benton.",NA,legislators,"Belknap, E. H.",3,23
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. T. Apperson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Apperson, J. T.",4,31
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Peter Paquet</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Paquet, Peter",5,39
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. V. Short</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wilsonville, Clackamas.",NA,legislators,"Short, R. V.",6,47
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John Hahn</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Hahn, John",7,55
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. B. Parker</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Parker, H. B.",8,1
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Judson Weed</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Vernonia, Columbia.",NA,legislators,"Weed, Judson",9,8
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John H. Roberts</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Myrtle Point, Coos.",NA,legislators,"Roberts, John H.",10,16
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. H. Crook</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",11,24
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. N. Williamson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Prineville, Crook.",NA,legislators,"Williamson, J. N.",12,32
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. E. Blundell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, J. E.",13,40
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. E. Labrie</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wilbur, Douglas.",NA,legislators,"Labrie, E. E.",14,48
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. E. Ricker</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Gardiner, Douglas.",NA,legislators,"Ricker, C. E.",15,56
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. A. Thomas</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Arlington, Gilliam.",NA,legislators,"Thomas, J. A.",16,2
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>G. W. Gilham</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Harney, Grant.",NA,legislators,"Gilham, G. W.",17,9
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. T. Bowditch</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"Bowditch, J. T.",18,17
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. A. Miller</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Jacksonville, Jackson.",NA,legislators,"Miller, R. A.",19,25
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. K. Price</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Tolo, Jackson.",NA,legislators,"Price, W. K.",20,33
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. J. Howard</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Kerbyville, Josephine.",NA,legislators,"Howard, C. J.",21,41
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. W. Condon</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Eugene City, Lane.",NA,legislators,"Condon, S. W.",22,49
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. C. Jennings</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Irving, Lane.",NA,legislators,"Jennings, A. C.",23,57
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. M. Stafford</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Eugene City, Lane.",NA,legislators,"Stafford, J. M.",24,3
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. C. Miller</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Miller, R. C.",25,10
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. B. R. Morelock</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Morelock, J. B. R.",26,18
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Jefferson Myers</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Scio, Linn.",NA,legislators,"Myers, Jefferson",27,26
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. P. Moss</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Paisley, Lake, Klamath.",NA,legislators,"Moss, S. P.",28,34
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>William Armstrong</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Armstrong, William",29,42
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>T. T. Geer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Macleay, Marion.",NA,legislators,"Geer, T. T.",30,50
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Samuel Layman</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Woodburn, Marion.",NA,legislators,"Layman, Samuel",31,4
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. B. Waldo</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Waldo, J. B.",32,11
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John Q. Wilson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Wilson, John Q.",33,19
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>H. P. Napton</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Malheur.,NA,legislators,"Napton, H. P.",34,27
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>T. E. Fell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Heppner, Morrow.",NA,legislators,"Fell, T. E.",35,35
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. P. Earhart</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Earhart, R. P.",36,43
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. J. Fisher</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Fisher, J. J.",37,51
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. B. Gilbert</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Gilbert, W. B.",38,5
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. R. Harrington</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Harrington, S. R.",39,12
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. T. Hume</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Hume, W. T.",40,20
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>William M. Ladd</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Ladd, William M.",41,28
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. H. Northup</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Northup, H. H.",42,36
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. A. Strowbridge</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Strowbridge, J. A.",43,44
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>D. P. Thompson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Thompson, D. P.",44,52
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. G. Fisher</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Fisher, C. G.",45,58
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. S. Powell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Monmouth, Polk.",NA,legislators,"Powell, F. S.",46,6
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. W. Maxwell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Netarts, Tillamook, Yamhill.",NA,legislators,"Maxwell, J. W.",47,13
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. J. Bean</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Pendleton, Umatilla.",NA,legislators,"Bean, H. J.",48,21
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. B. Gambee</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Alba, Umatilla.",NA,legislators,"Gambee, E. B.",49,29
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>T. J. Kirk</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Pendleton, Umatilla.",NA,legislators,"Kirk, T. J.",50,37
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Charles Goodnough</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Island City, Union.",NA,legislators,"Goodnough, Charles",51,45
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. L. Roe</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Summerville, Union.",NA,legislators,"Roe, J. L.",52,53
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>James A. Hunter</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Enterprise, Wallowa.",NA,legislators,"Hunter, James A.",53,59
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. O. McCoy</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grant, Wasco.",NA,legislators,"McCoy, E. O.",54,14
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. L. Smith</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Hood River, Wasco.",NA,legislators,"Smith, E. L.",55,22
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. C. Moore</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Greenville, Washington.",NA,legislators,"Moore, J. C.",56,30
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Thomas Paulsen</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Garden Home, Washington.",NA,legislators,"Paulsen, Thomas",57,38
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. V. Pope</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Forest Grove, Washington.",NA,legislators,"Pope, J. V.",58,46
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. R. Derby</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lafeyette, Yamhill.",NA,legislators,"Derby, W. R.",59,54
+1889-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>R. R. Laughlin</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Yamhill, Yamhill.",NA,legislators,"Laughlin, R. R.",60,60
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Edwin Hardy</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Baker City, Baker.",NA,legislators,"Hardy, Edwin",1,7
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. E. Moor</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Corvallis, Benton.",NA,legislators,"Moor, C. E.",2,15
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>M. T. Starr</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Monroe, Benton.",NA,legislators,"Starr, M. T.",3,23
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. M. Hartman</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Marquam, Clackamas.",NA,legislators,"Hartman, E. M.",4,31
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Peter Paquet</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Oregon City, Clackamas.",NA,legislators,"Paquet, Peter",5,39
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>James A. Tracy</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Logan, Clackamas.",NA,legislators,"Tracy, James A.",6,47
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John Fox</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Fox, John",7,55
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>James W. Welch</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Astoria, Clatsop.",NA,legislators,"Welch, James W.",8,1
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Judson Weed</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Vernonia, Columbia.",NA,legislators,"Weed, Judson",9,8
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. D. Garfield</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Marshfield, Coos.",NA,legislators,"Garfield, J. D.",10,16
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>T. J. Stephenson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Liberty, Crook.",NA,legislators,"Stephenson, T. J.",11,24
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. H. Crook</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ellensburg, Coos, Curry.",NA,legislators,"Crook, A. H.",12,32
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. E. Blundell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Canyonville, Douglas.",NA,legislators,"Blundell, J. E.",13,40
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. H. Leeper</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Oakland, Douglas.",NA,legislators,"Leeper, W. H.",14,48
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. W. Reed</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Gardiner, Douglas.",NA,legislators,"Reed, A. W.",15,56
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. J. Mulkey</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Olex, Gilliam.",NA,legislators,"Mulkey, W. J.",16,2
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. S. Dustin</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Long Creek, Grant.",NA,legislators,"Dustin, C. S.",17,9
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Samuel Furry</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Phoenix, Jackson.",NA,legislators,"Furry, Samuel",18,17
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. M. McCall</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Ashland, Jackson.",NA,legislators,"McCall, J. M.",19,25
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. W. Merritt</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Central Point, Jackson.",NA,legislators,"Merritt, J. W.",20,33
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. B. Miller</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grants Pass, Josephine.",NA,legislators,"Miller, H. B.",21,41
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. Snider</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lakeview, Klamath, Lake.",NA,legislators,"Snider, A.",22,49
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. P. Coleman</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Coburg, Lane.",NA,legislators,"Coleman, E. P.",23,57
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>A. C. Jennings</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Irving, Lane.",NA,legislators,"Jennings, A. C.",24,3
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Jasper Wilkins</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Coburg, Lane.",NA,legislators,"Wilkins, Jasper",25,10
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>F. C. Hansard</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lebanon, Linn.",NA,legislators,"Hansard, F. C.",26,18
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. F. Henry</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Brownsville, Linn.",NA,legislators,"Henry, J. F.",27,26
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. J. Shedd</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Shedd Station, Linn.",NA,legislators,"Shedd, C. J.",28,34
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Thomas L. Littig</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Malheur City, Malheur.",NA,legislators,"Littig, Thomas L.",29,42
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Wm. Armstrong</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Armstrong, Wm.",30,50
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. W. Baker</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Baker, J. W.",31,4
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>Theodore T. Geer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Macleay, Marion.",NA,legislators,"Geer, Theodore T.",32,11
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. H. Holmes</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Holmes, W. H.",33,19
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John, IV Minto</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Salem, Marion.",NA,legislators,"Minto, John, IV",34,27
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. C. Thompson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Lexington, Morrow.",NA,legislators,"Thompson, J. C.",35,35
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>O. F. Botkin</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Botkin, O. F.",36,43
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John H. Hall</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Hall, John H.",37,51
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John McCraken</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"McCraken, John",38,5
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>C. H. Meussdorffer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Meussdorffer, C. H.",39,12
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. B. Montgomery</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Montgomery, J. B.",40,20
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>P. F. Morey</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Morey, P. F.",41,28
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. T. Stewart</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Stewart, J. T.",42,36
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>George L. Story</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Story, George L.",43,44
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. E. Thomas</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Portland, Multnomah.",NA,legislators,"Thomas, W. E.",44,52
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>N. L. Butler</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Butler, N. L.",45,58
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>G. W. Myer</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dallas, Polk.",NA,legislators,"Myer, G. W.",46,6
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. O. McCoy</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Grant, Sherman, Wasco.",NA,legislators,"McCoy, E. O.",47,13
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>George W. Johnston</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Dufur, Sherman, Wasco.",NA,legislators,"Johnston, George W.",48,21
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. D. Stillwell</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Tillamook, Yamhill, Tillamook.",NA,legislators,"Stillwell, W. D.",49,29
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. A. Gambee</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Alba, Umatilla.",NA,legislators,"Gambee, E. A.",50,37
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. L. Killian</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Vansycle, Umatilla.",NA,legislators,"Killian, J. L.",51,45
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. S. Richey</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Milton, Umatilla.",NA,legislators,"Richey, J. S.",52,53
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>John McAlister</strong><br/>Unknown Affiliation<br/>Male<br/>Representing LaGrande, Union.",NA,legislators,"McAlister, John",53,59
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. A. Wright</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Sparta, Union.",NA,legislators,"Wright, J. A.",54,14
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>E. W. Barnes</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Wallowa, Wallowa.",NA,legislators,"Barnes, E. W.",55,22
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>W. N. Barrett</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Hillsboro, Washington.",NA,legislators,"Barrett, W. N.",56,30
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. A. Durham</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Tualatin, Washington.",NA,legislators,"Durham, S. A.",57,38
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>J. C. Moore</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Greenville, Washington.",NA,legislators,"Moore, J. C.",58,46
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>H. W. Lamson</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Willamina, Yamhill.",NA,legislators,"Lamson, H. W.",59,54
+1891-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>S. A. Manning</strong><br/>Unknown Affiliation<br/>Male<br/>Representing McMinnville, Yamhill.",NA,legislators,"Manning, S. A.",60,60
 1893-01-01T12:00:00Z,Democrat,NA,<strong>S. T. Jeffreys</strong><br/>Democrat<br/>Male<br/>Representing Benton.,NA,legislators,"Jeffreys, S. T.",1,7
 1893-01-01T12:00:00Z,Democrat,NA,<strong>George J. Currin</strong><br/>Democrat<br/>Male<br/>Representing Clackamas.,NA,legislators,"Currin, George J.",2,15
 1893-01-01T12:00:00Z,Democrat,NA,<strong>J. E. Campbell</strong><br/>Democrat<br/>Male<br/>Representing Clatsop.,NA,legislators,"Campbell, J. E.",3,23
@@ -4127,7 +4127,7 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1897-01-01T12:00:00Z,Republican,NA,"<strong>Harvey S. Hudson</strong><br/>Republican<br/>Male<br/>Representing Gaston, Washington.",NA,legislators,"Hudson, Harvey S.",41,28
 1897-01-01T12:00:00Z,Republican,NA,"<strong>G. W. Marsh</strong><br/>Republican<br/>Male<br/>Representing Cornelius, Washington.",NA,legislators,"Marsh, G. W.",42,36
 1897-01-01T12:00:00Z,Republican,NA,"<strong>J. R. C. Thompson</strong><br/>Republican<br/>Male<br/>Representing Tualatin, Washington.",NA,legislators,"Thompson, J. R. C.",43,44
-1897-01-01T12:00:00Z,(Missing),NA,<strong>Johnson S. Smith</strong><br/>(Missing)<br/>Male<br/>Representing Linn.,NA,legislators,"Smith, Johnson S.",44,52
+1897-01-01T12:00:00Z,Unknown Affiliation,NA,<strong>Johnson S. Smith</strong><br/>Unknown Affiliation<br/>Male<br/>Representing Linn.,NA,legislators,"Smith, Johnson S.",44,52
 1897-01-01T12:00:00Z,People's,NA,"<strong>D. W. Yoakum</strong><br/>People's<br/>Male<br/>Representing Express, Baker.",NA,legislators,"Yoakum, D. W.",45,58
 1897-01-01T12:00:00Z,People's,NA,"<strong>John Whitaker</strong><br/>People's<br/>Male<br/>Representing Corvallis, Benton.",NA,legislators,"Whitaker, John",46,6
 1897-01-01T12:00:00Z,People's,NA,"<strong>W. S. U'Ren</strong><br/>People's<br/>Male<br/>Representing Milwaukie, Clackamas.",NA,legislators,"U'Ren, W. S.",47,13
@@ -4501,7 +4501,7 @@ session_year,party,seats_over_side,caption,table_str,data,legislator,id,seat
 1909-01-01T12:00:00Z,Republican,NA,"<strong>W. H. Brooke</strong><br/>Republican<br/>Male<br/>Representing Ontario, Harney, Malheur.",NA,legislators,"Brooke, W. H.",56,30
 1909-01-01T12:00:00Z,Republican,NA,"<strong>J. L. Carter</strong><br/>Republican<br/>Male<br/>Representing Hood River, Hood River, Wasco.",NA,legislators,"Carter, J. L.",57,38
 1909-01-01T12:00:00Z,Republican,NA,"<strong>H. C. Dobbs</strong><br/>Republican<br/>Male<br/>Representing Dufur, Hood River, Wasco.",NA,legislators,"Dobbs, H. C.",58,46
-1909-01-01T12:00:00Z,(Missing),NA,"<strong>M. F. Corrigan</strong><br/>(Missing)<br/>Male<br/>Representing McMinnville, Yamhill.",NA,legislators,"Corrigan, M. F.",59,54
+1909-01-01T12:00:00Z,Unknown Affiliation,NA,"<strong>M. F. Corrigan</strong><br/>Unknown Affiliation<br/>Male<br/>Representing McMinnville, Yamhill.",NA,legislators,"Corrigan, M. F.",59,54
 1909-01-01T12:00:00Z,Independent,NA,"<strong>W. J. Mariner</strong><br/>Independent<br/>Male<br/>Representing Blalock, Gilliam, Sherman, Wheeler.",NA,legislators,"Mariner, W. J.",60,60
 1911-01-01T12:00:00Z,Democrat,NA,"<strong>C. L. Shaw</strong><br/>Democrat<br/>Male<br/>Representing Albany, Linn.",NA,legislators,"Shaw, C. L.",1,7
 1911-01-01T12:00:00Z,Democrat,NA,"<strong>A. J. Derby</strong><br/>Democrat<br/>Male<br/>Representing Hood River, Hood River, Wasco.",NA,legislators,"Derby, A. J.",2,15

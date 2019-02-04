@@ -178,7 +178,8 @@ legislators <- house_reps_regular %>%
     party = party %>% 
       as_factor() %>% 
       fct_explicit_na() %>% 
-      fct_relevel("(Missing)", after = 2)
+      fct_relevel("(Missing)", after = 2) %>% 
+      fct_recode(`Unknown Affiliation` = "(Missing)")
     ) %>% 
   select(session_year, legislator, party, gender, residence, profession,
     notes) %>% 
