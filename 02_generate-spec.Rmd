@@ -18,7 +18,7 @@ end_year <- 2019
 
 ```{r spec}
 spec <- list(
-    `$schema` = "https://vega.github.io/schema/vega-lite/v3.json", 
+    `$schema` = "https://vega.github.io/schema/vega-lite/v3.0.0-rc1.json", 
     data = list(url = "data/vega-all.csv"),
     description = "House majority over time",
     config = list(style = list(cell = list(stroke = "transparent"))))
@@ -372,12 +372,7 @@ both_plots2 <- list(
   hconcat = list(
     c(width = 200, height = 600, majority_over_time_plot2),
     list(vconcat = list(
-      c(width = 400, height = 20,  
-        list(
-          layer = list(
-            legislator_plot4
-        ))
-        ),
+      c(width = 400, height = 20,  legislator_plot4),
       c(width = 400, height = 400, legislator_plot2),
       c(legislator_plot6)),
       center = TRUE,

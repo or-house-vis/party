@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.0.0-rc1.json",
   "data": {
     "url": "data/vega-all.csv"
   },
@@ -150,44 +150,40 @@
         {
           "width": 400,
           "height": 20,
-          "layer": [
+          "transform": [
             {
-              "transform": [
-                {
-                  "filter": {
-                    "field": "data",
-                    "equal": "legislators"
-                  }
-                },
-                {
-                  "filter": {
-                    "selection": "brush"
-                  }
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 20
-              },
-              "encoding": {
-                "x": {
-                  "value": 0
-                },
-                "y": {
-                  "value": 0
-                },
-                "text": {
-                  "aggregate": "min",
-                  "field": "session_year",
-                  "type": "temporal",
-                  "timeUnit": "year"
-                },
-                "tooltip": {
-                  "value": null
-                }
+              "filter": {
+                "field": "data",
+                "equal": "legislators"
+              }
+            },
+            {
+              "filter": {
+                "selection": "brush"
               }
             }
-          ]
+          ],
+          "mark": {
+            "type": "text",
+            "fontSize": 20
+          },
+          "encoding": {
+            "x": {
+              "value": 0
+            },
+            "y": {
+              "value": 0
+            },
+            "text": {
+              "aggregate": "min",
+              "field": "session_year",
+              "type": "temporal",
+              "timeUnit": "year"
+            },
+            "tooltip": {
+              "value": null
+            }
+          }
         },
         {
           "width": 400,
