@@ -388,3 +388,130 @@ spec %>%
   auto_unbox = TRUE, pretty = TRUE, null = "null")
 ```
 
+```{r legislator_plot_small <- }
+legislator_plot_small <- list(
+  transform = list(
+    list(
+      filter = list(
+        field = "data", equal = "legislators")
+    ),
+    list(
+        filter = list(
+          selection = "brush")
+    ),
+    list(
+      calculate = "45",
+      as = "party_pos"
+    ),
+    list(
+      calculate = "'seats'",
+      as = "text_seats"
+    )
+  ),
+  encoding = list(
+    y = list(
+      field = "party",
+      type = "nominal",
+      sort = list(
+        op = "distinct",
+        field = "legislator",
+        order = "descending"
+      ),
+      scale = list(
+        rangeStep = 25
+      ),
+      axis = NULL
+    ),
+    x = list(
+          field = "party_pos",
+          type = "quantitative",
+          scale = list(
+            domain = list(0, 60)
+          ),
+        axis = NULL
+        ),
+    color = list(
+          field = "party",
+          type = "nominal",
+          scale = list(
+            domain = names(party_colors), 
+            range = party_colors
+          ),
+          legend = NULL
+      ),
+    tooltip = list(
+      value = NULL
+    ),
+    opacity = list(
+      value = 0.75
+    )
+  ),
+  layer = list(
+    list(
+      mark = list(
+        type = "text",
+        align = "right",
+        baseline = "middle",
+        fontSize = 16,
+        dx = -3
+      ),
+      encoding = list(
+         text = list(
+            aggregate = "min",
+            field = "party",
+            type = "nominal"
+        )
+      )),
+    list(
+      mark = list(
+        type = "text",
+        align = "left",
+        baseline = "middle",
+        dx = 3,
+        fontSize = 16
+      ),
+      encoding = list(
+        text = list(
+            aggregate = "distinct",
+            field = "legislator",
+            type = "quantitative"
+        )
+      )
+     ),
+    list(
+      mark = list(
+        type = "text",
+        align = "left",
+        baseline = "middle",
+        dx = 28,
+        fontSize = 12
+      ),
+      encoding = list(
+        text = list(
+          aggregate = "min",
+          field = "text_seats",
+          type = "nominal"
+        )
+      )
+    )
+  )
+)
+```
+
+```{r}
+both_plots_tall <- list(
+  vconcat = list(
+    c(width = 200, height = 200, majority_over_time_plot2),
+    c(width = 100, height = 20,  legislator_plot4),
+    c(width = 200, height = 75, legislator_plot_small)
+  ),
+  center = TRUE,
+  spacing = 20
+)
+
+spec %>% 
+  c(both_plots_tall) %>% 
+  write_json(here("docs", "spec-tall.json"), 
+  auto_unbox = TRUE, pretty = TRUE, null = "null")
+```
+
