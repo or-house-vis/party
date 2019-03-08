@@ -20,14 +20,21 @@
 <body>  
   <div class="container main-container">
   <div id="vis"></div>
+  <div id = "is-small-screen" class="d-block d-md-none"></div>
   </div>
   
   <script>
     var spec = "spec.json";
+    var el = document.getElementById('is-small-screen');
+    var is_small = getComputedStyle(el, null).display !== "none";
+    if (is_small) {
+      spec = "spec-tall.json";
+    }
+  
     vegaEmbed('#vis', spec, {
       defaultStyle: true,
+      renderer: "canvas",
       tooltip: { sanitize: function sanitize(value) {return String(value);} },
       actions: false }).catch(console.warn);
   </script>
-
 </body>
