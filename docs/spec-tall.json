@@ -20,7 +20,7 @@
   "vconcat": [
     {
       "width": 200,
-      "height": 200,
+      "height": 300,
       "transform": [
         {
           "filter": {
@@ -49,6 +49,9 @@
                   },
                   {
                     "type": "mousedown"
+                  },
+                  {
+                    "type": "touchstart"
                   }
                 ]
               },
