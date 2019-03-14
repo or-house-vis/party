@@ -58,7 +58,6 @@
               "fields": [
                 "session_year"
               ],
-              "nearest": true,
               "resolve": "global",
               "empty": "none"
             }
@@ -218,9 +217,6 @@
             "op": "distinct",
             "field": "legislator",
             "order": "descending"
-          },
-          "scale": {
-            "rangeStep": 25
           },
           "axis": null
         },

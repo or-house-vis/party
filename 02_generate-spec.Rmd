@@ -24,18 +24,32 @@ spec <- list(
     config = list(style = list(cell = list(stroke = "transparent"))))
 ```
 
-```{r majority-over-time-plot2 }
-year_selection <- 
-  list(
+
+```{r selection}
+selection_on = list(merge = 
+    list(
+      list(
+        type = "mousemove",
+        between = list(
+          list(type = "mousedown"), 
+          list(type = "mouseup"))),
+      list(type = "mousedown"),
+      list(type = "touchstart")
+  )
+)
+
+year_selection <- list(
       brush = list(
         type = "single",
+        on = selection_on,
         fields = list("session_year"),
-        nearest = TRUE,
         resolve = "global",
         empty = "none"
         )
       )
+```
 
+```{r majority-over-time-plot2 }
 majority_over_time_plot2 <- list(
   transform = list(
     list(
@@ -151,7 +165,8 @@ legislator_plot2 <- list(
             )
     ),
     tooltip = list(
-            field = "caption"
+            field = "caption",
+            type = "nominal"
       
     )
   )
@@ -193,30 +208,6 @@ legislator_plot4 <- list(
 ```
 
 
-```{r selection}
-selection_on = list(merge = 
-    list(
-      list(
-        type = "mousemove",
-        between = list(
-          list(type = "mousedown"), 
-          list(type = "mouseup"))),
-      list(type = "mousedown"),
-      list(type = "touchstart")
-  )
-)
-
-majority_over_time_plot2$layer[[1]]$selection <- list(
-      brush = list(
-        type = "single",
-        on = selection_on,
-        fields = list("session_year"),
-        nearest = TRUE,
-        resolve = "global",
-        empty = "none"
-        )
-      )
-```
 
 
 ```{r time-selection-line}
@@ -422,9 +413,6 @@ legislator_plot_small <- list(
         op = "distinct",
         field = "legislator",
         order = "descending"
-      ),
-      scale = list(
-        rangeStep = 25
       ),
       axis = NULL
     ),

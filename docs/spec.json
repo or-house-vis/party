@@ -58,7 +58,6 @@
               "fields": [
                 "session_year"
               ],
-              "nearest": true,
               "resolve": "global",
               "empty": "none"
             }
@@ -228,7 +227,8 @@
               "value": 0.75
             },
             "tooltip": {
-              "field": "caption"
+              "field": "caption",
+              "type": "nominal"
             },
             "fill": {
               "field": "party",
